@@ -1,0 +1,33 @@
+/*Global*/
+#news-main-builder-header {
+  display: flex;
+}
+#news-main-builder-header .mobile_menu_button {
+  position: initial;
+}
+.news10-text-gradient .elementor-heading-title {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.news10-icon-gradient .elementor-icon i{
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.news10-icon-gradient .elementor-icon i:before{
+  position: initial;
+}
+.news10-sticky-header.sticky-on {
+    top: 0;
+    width: 100% !important;
+    z-index: 20;
+    position: fixed !important;
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-timing-function: ease;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 3px 18px rgba(2, 21, 78, 0.09);
+}
+
